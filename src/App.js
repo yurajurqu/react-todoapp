@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import { TextField , Button} from '@material-ui/core';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='center'>
+        <h1>Form</h1>
+        <TextField id="abc" className="abc" label="Email" /><br></br>
+        <TextField id="standard-basic" className="abc" label="Password" /><br></br><br></br>
+        <Button variant="contained" color="primary">Submit</Button>
     </div>
   );
 }
