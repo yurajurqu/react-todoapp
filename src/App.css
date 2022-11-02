@@ -1,6 +1,48 @@
-.center {
+* {
+  margin: 0px;
   text-align: center;
 }
-.abc {
+
+.Todo__Header {
+  font-family: ubuntu;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  font-size: 35px;
+  background: linear-gradient(to right, #4719aa,#4615b2,#4719aa);
+  height: 50px;
+  border: 1px solid black;
+  margin-bottom: 25px;
+  padding: 7px;
+  box-shadow: 0 2px 5px gray;
+}
+
+.Add__Todo {
+  padding: 15px 0;
+  margin: 20px 150px 22px 150px;
+}
+
+.Add__Todo > .Text__Field {
   width: 500px;
+}
+.Add__Todo > Button {
+  width: 20%;
+  margin: 5px;
+}
+
+.Todos__Rendering {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 150px;
+  padding: 10px;
+}
+.Todos__Rendering >p {
+  font-family: ubuntu;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.Todos__Rendering >div> Button {
+  width: 150px;
+  margin: 5px;
+  align-items: right;
 }
